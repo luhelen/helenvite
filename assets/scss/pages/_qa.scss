@@ -1,0 +1,38 @@
+.question{
+    width: 66%;
+    text-align: left;
+    padding-top: 96px;
+    padding-bottom: 80px;
+    @media(max-width:992px){
+        width: 100%;
+        padding:80px 36px;
+    }
+    @media(max-width:768px){
+        padding:40px 14px;
+    }
+    h1{
+        font-size: 48px;
+        font-weight: bold;
+        border-left:8px solid #9F1213;       
+        margin-bottom: 32px;
+        @media(max-width:768px){
+            margin-bottom: 24px;
+        }
+    }
+    h2{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 24px;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    li{
+        margin-bottom: 32px;
+        @media(max-width:768px){
+            margin-bottom: 24px;
+        }
+    }
+}

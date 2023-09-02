@@ -1,0 +1,164 @@
+footer{
+  padding-top: 48px;
+}
+.contact-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 32px;  
+  a{
+    color:white;
+  }
+  a:hover{
+    color:blue;
+  }
+  .contact-icon{
+    display: flex;
+    li{
+      padding-left: 32px;
+    }
+    li:last-child {
+      margin-right: 0px;
+    }
+    img{
+      width: 48px;
+      height: 48px;
+    }
+  }
+  .footer-menu{
+    display: flex;
+    flex-direction: column;
+    .menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      li {
+        margin-right: 48px;
+      }
+      li:last-child {
+        margin-right: 0px;
+      }
+    }
+    .contact{      
+      font-size: 36px;
+      color:white;
+      font-family: "Noto Sans TC";
+      li{
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        span{
+          padding-right: 22px;    
+          font-size: 36px;             
+        }
+      }
+    }
+  }
+}
+.copy-right{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  padding:32px 0;
+  p{
+    color:white; 
+  }
+  .policy{
+    display: flex;
+    li{
+      padding-left: 48px;
+      color:white; 
+    }
+    a{
+      color:white; 
+    }
+    a:hover{
+      color:blue;
+    }
+  }
+}
+
+@media (max-width: 992px)
+{  
+  .container{
+    padding:0px 36px;
+  }
+  .contact-icon img{
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 767px)
+{
+  .container{
+    padding:0px 15px;
+  }
+  footer{
+    padding-top: 24px;
+  }
+ 
+  .contact-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 16px;  
+    a{
+      color:white;
+    }
+    a:hover{
+      color:blue;
+    }
+    .contact-icon{
+      display: flex;
+      li{
+        padding-left: 8px;
+      }
+      li:last-child {
+        margin-right: 0px;
+      }
+      img{
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .footer-menu{
+      display: flex;
+      flex-direction: column;
+      .menu{
+        display: none;
+      }
+      .contact{
+        font-size: 16px;
+        color:white;
+        li{
+          display: flex;
+          align-items: center;
+          margin-bottom: 8px;
+          span{
+            padding-right: 11px;
+            font-size: 24px;           
+          }         
+        }
+      }
+    }
+  }
+  
+  .copy-right{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid white;
+    padding: 16px 0px;
+    p{
+      margin-bottom: 8px;
+    }
+    .policy{
+      display: flex;
+      flex-direction: column;
+      li{
+        padding-left: 0;
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
