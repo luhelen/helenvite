@@ -28,17 +28,11 @@ footer{
   .footer-menu{
     display: flex;
     flex-direction: column;
-    .menu{
+    .menu{     
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 24px;
-      li {
-        margin-right: 48px;
-      }
-      li:last-child {
-        margin-right: 0px;
-      }
+      margin-bottom: 24px;     
     }
     .contact{      
       font-size: 36px;
@@ -89,7 +83,7 @@ footer{
     height: 40px;
   }
 }
-@media (max-width: 767px)
+@media (max-width: 768px)
 {
   .container{
     padding:0px 15px;
